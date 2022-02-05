@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacts form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <h1>Contact form</h1>
+    <div class="container">
+        <form class="contacts_form" id="form">
+
+          <h1 class="card_title"> Add ontacts</h1>
+      
+          <input type="text" class="name" id="Name" placeholder="enter Your name.." >
+          <input type="text" class="email" id="Email" placeholder="enter your Email address" > 
+          <input type="text" class="phonenumber" id="Phonenumber" placeholder="enter your phone number" >
+
+          <input type="button" value="Add contact" class="add_contact" id="addcontact">
+      
+        </form> 
+
+    </div> 
+    <input type="text" class="search" id="searchbar" placeholder="number to find contacts">
+    <input type="submit" value="searchButton" class="searchButton" id="search">
+
+   <div id="Contacts" class="row_container_fluid"> 
+        <!--This class will contain the appended grid that will have the contacts-->
+    </div>
+    <script src="script.js"></script> 
+    
+</body>
+</html>

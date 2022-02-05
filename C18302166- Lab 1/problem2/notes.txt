@@ -1,0 +1,11 @@
+//Function that changes the background color of the notepad
+changeColour(){
+    var x = document.getElementById("selectcolor");
+    var changeColour=x.options[x.selectedIndex].value;
+    document.row_container_fluid.style.backgroundColor=changeColour;
+}
+
+
+var colour = 'green';
+
+    let notes =  getElementById('notes');

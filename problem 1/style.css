@@ -1,0 +1,70 @@
+.container{
+    align-content: center;
+    background-color: rgb(41, 210, 223);
+    border-color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 75%;
+    height: 30%;
+}
+
+.row_container_fluid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    height: 20%;
+
+}
+
+.h1{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.body{
+    background-color: aliceblue;
+}
+
+
+.name{
+    grid-area: name;
+    background-color: white; 
+}
+.email{grid-area: email;
+    background-color: white;
+}
+.phonenumber{
+    grid-area: email;
+    background-color: white; 
+}
+
+.cname{
+    width: 33%;
+    height: 100%;
+    float: left;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.cnumber{
+    width: 33%;
+    height: 100%;
+    float: right;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.cmail{
+    align-self: center;
+    width: 33%;
+    height: 100%;
+    float: left;
+    background-color: gray;
+    border: 1px solid black;
+}

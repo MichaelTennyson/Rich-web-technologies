@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    background-image: url("stripe-hero-background-effect-html-css.png");
+    
+}
+
+.searchbar{
+    float: center;
+    width: 100px;
+    height: 400px
+}
+
+
+.search {
+    float: left;
+    font-size: small;
+    border: 0.2em solid grey;
+    width: 700px;
+}
+
+.submit{
+    float:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    width: 110px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.maincontainer{
+  float: left;
+  display: flex;
+}
+
+.container {
+    top: 50%;
+    text-align: left;
+    float: left;
+    left: 50%;
+    flex: 0 0 65%;
+    display: grid;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+    -ms-grid-row-align: left;
+    grid-column-start: auto;
+    border: 3px solid;
+    border-color: black;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    padding: 10px;
+    gap: 5px;
+    width: 40%;
+    height: 500px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "User-profile"
+      "NAme"
+      "Username"
+      "Email"
+      "Location"
+      "number-of-Gists";
+  }
+  
+  .User-profile { 
+      grid-area: User-profile;
+      width: 300px;
+      height: 200px;
+      border: 1px solid;
+      border-color: black;
+      
+}
+  
+  .name { 
+      grid-area: NAme; 
+      border: 1px solid;
+}
+  
+  .Username { 
+      grid-area: Username;
+      border: 1px solid;
+}
+  
+  .Email { 
+      grid-area: Email;
+      border: 1px solid;
+      border-color: black; 
+}
+  
+  .Location { 
+      grid-area: Location;
+      border: 1px solid;
+      border-color: black; 
+    }
+  
+  .number-of-Gists { 
+      grid-area: number-of-Gists;
+      border: 1px solid;
+      border-color: black;  
+}
+
+.heading{
+    text-align: center;
+    font: bold;
+    font-size: x-large;
+}
+
+  .container2 {
+    text-align: left;
+    float: right;
+    flex: 1;
+    right: 50%;
+    top: 50%;
+    margin-right: 10px;
+    display: grid;
+    width: 40%;
+    height: 500px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 35px;
+    grid-auto-flow: row;
+    border-radius: 12px;
+    border-color: black;
+    background-color: white;
+    border: 3px solid;
+  }

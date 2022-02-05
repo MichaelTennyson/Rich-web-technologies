@@ -1,0 +1,44 @@
+.blue{
+    background-color: blue;
+}
+
+.addBtn
+{
+    background-color:blue
+}
+.colorButton{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+
+.white{
+    background-color: white;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.row_container_fluid{
+    display: flex;
+}
+
+.container{
+    background-color: beige;
+}
